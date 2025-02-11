@@ -30,8 +30,8 @@ void part2() {
         p2cvector.push_back('a');
     }
 
-    std::cout << "Memory usage of std::vector<bool>: " << p2bvector.capacity() << " bytes" << std::endl;
-    std::cout << "Memory usage of std::vector<char>: " << p2cvector.capacity() << " bytes" << std::endl;
+    std::cout << "Memory usage of std::vector<bool>: " << p2bvector.size() << " bytes" << std::endl;
+    std::cout << "Memory usage of std::vector<char>: " << p2cvector.size() << " bytes" << std::endl;
 
 }
 
