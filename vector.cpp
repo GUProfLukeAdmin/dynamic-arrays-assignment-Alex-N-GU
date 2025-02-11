@@ -1,5 +1,6 @@
-#include <vector>
 
+#include <iostream>
+#include <vector>
 
 void part1() {
     //TODO: Implement part 1
