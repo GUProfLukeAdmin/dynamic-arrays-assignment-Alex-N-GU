@@ -19,7 +19,7 @@ void part1() {
 
 void part2() {
     //TODO: Implement part 2
-    std::vector<bool> p2bvector;
+    std::vector<bool> p2bvector(10000,true);
     std::vector<char> p2cvector;
 
     for(int i = 1; i <=10000; i++) {
@@ -30,7 +30,7 @@ void part2() {
         p2cvector.push_back('a');
     }
 
-    std::cout << "Memory usage of std::vector<bool>: " << p2bvector.size()/8 << " bytes" << std::endl;
+    std::cout << "Memory usage of std::vector<bool>: " << p2bvector.capacity()/8 << " bytes" << std::endl;
     std::cout << "Memory usage of std::vector<char>: " << p2cvector.size() << " bytes" << std::endl;
 
 }
