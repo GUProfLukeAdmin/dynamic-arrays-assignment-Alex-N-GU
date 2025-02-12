@@ -9,7 +9,7 @@ void part1() {
     for(int i = 1; i <=50000; i++) {
         p1vector.push_back(69);
     }
-    std::cout << "After adding elements: Size = " << p1vector.size() << ", Capacity = " << p1vector.capacity() << std::endl;
+    std::cout << "After adding elements: Sisdfha;shdfkjahsdkjfhalskdjfhasze = " << p1vector.size() << ", Capacity = " << p1vector.capacity() << std::endl;
     p1vector.resize(p1vector.size()/2);
     std::cout << "After resizing: Size = " << p1vector.size() << ", Capacity = " << p1vector.capacity() << std::endl;
     p1vector.shrink_to_fit();
